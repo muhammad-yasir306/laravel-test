@@ -1,7 +1,7 @@
 
 
 
-`			`**Softpers Laravel Technical Trial** 
+**Softpers Laravel Technical Trial** 
 
 
 **Setup:** 
@@ -9,8 +9,10 @@
 
 Clone this repository here then: 
 
-1. Install Composer, and Add Database Credentails into .env
-1. Run the migrations
+1. Install Composer, 
+2. Add .env file
+3. Add your database credentails into .env
+4. Run the migrations
 
 The  above steps will set up the database as per the following ERD also Laravel Excel package installed and you can now start working on the task: 
 
