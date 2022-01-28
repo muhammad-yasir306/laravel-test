@@ -9,7 +9,7 @@
 
 Clone this repository here then: 
 
-1. Setup Project, Install Composer, and Add Database Credentails into .env
+1. Install Composer, and Add Database Credentails into .env
 1. Run the migrations
 
 The  above steps will set up the database as per the following ERD also Laravel Excel package installed and you can now start working on the task: 
