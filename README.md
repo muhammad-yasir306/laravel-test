@@ -9,7 +9,7 @@
 
 Clone the repository here:  <https://github.com/softpers-interactive/laravel-test>
 
-1. Setup Project, Install Composer, and Configure Database
+1. Setup Project, Install Composer, and Add Database Credentails into .env
 1. Run the migrations
 
 The  above steps will set up the database as per the following ERD also Laravel Excel package installed and you can now start working on the task: 
