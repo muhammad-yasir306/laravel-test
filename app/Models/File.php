@@ -13,9 +13,9 @@ class File extends Model
     protected $table = 'files';
 
     public $fillable = [
-        'file_name',
+        'name',
     ];
-    
+
     public function columns()
     {
         return $this->hasMany(FileColumn::class, 'file_id', 'id');

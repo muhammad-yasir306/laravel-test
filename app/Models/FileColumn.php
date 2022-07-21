@@ -11,7 +11,7 @@ class FileColumn extends Model
     use Notifiable, HasFactory;
 
     public $fillable = [
-        'file_id', 'column_name'
+        'file_id', 'name'
     ];
 
     protected $table = 'file_columns';
