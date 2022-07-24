@@ -51,6 +51,6 @@ class ProcessFileImport implements ShouldQueue
             }
         }
         $this->fileRecord->columns()->saveMany($columns);
-        Excel::import(new FilesImport(), $this->file, 'public');
+        Excel::import(new FilesImport($this->file), $this->file, 'public');
     }
 }

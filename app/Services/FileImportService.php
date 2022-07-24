@@ -21,10 +21,8 @@ class FileImportService
     {
         // Save file in local storage
 
-        $fileName = $file->getClientOriginalName();
-        $file->storeAs(
-            'public', $file->getClientOriginalName()
-        );
+        $fileName = $file->hashName();
+        Storage::putFile('public', $file);
 
         // Create file record in files table
         $fileRecord = File::create([
